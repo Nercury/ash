@@ -32,7 +32,7 @@ mod device;
 mod entry;
 #[cfg(feature = "libloading")]
 mod entry_libloading;
-mod instance;
+pub mod instance;
 pub mod prelude;
 pub mod util;
 pub mod version;
