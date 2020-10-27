@@ -10,7 +10,7 @@ use std::ptr;
 #[derive(Clone)]
 pub struct Surface {
     handle: vk::Instance,
-    surface_fn: vk::KhrSurfaceFn,
+    pub surface_fn: vk::KhrSurfaceFn,
 }
 
 impl Surface {
